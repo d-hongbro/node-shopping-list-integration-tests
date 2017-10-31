@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Sc4frq1haTaW4UEFV398Rh7q5eT+IRua3oRRUpdyLwsE6Cb8QDd4S7Jihjd4OUzMtgESj/7e9jC01u3/MROQdpaa5SjocrDXbh/QsXU2JTkNmcrxikxFACssosKb8VKvxXNQU1QXCz4jfxD7ldR+U9s4Az/HGq4jZ8Drf1BfPnJrT11i8y3V0cAr6tJqPt3pmItZbkarCTEG+sLx7nlw4xgYDELqe/UtMc/XoHCSV+O42/slfQOuOXsREWLUxdnNEAaf05thxVwkeMMgOY0uRw3dqW9r8YpI7uTbAo+os/Kj1GrP1MmTcjezlhyi3p3+qrDCYGDvHGkR1m6uiugZuR08gDJ+BX3FctVDwdFg9GMS3Vxyl1L7C0SGsx9qHzAX+Gj48JicukCo4Xb9SM8hzoTMwJkwL1v72S2hSDpTcmTEMO8ThE0jb9xZtOWPevpDRHGGDeRRxoYy8UEuCHUJ2jE/OyP8q5trNWmsjovYnN/+XcUwozVzRD2NpQUfKd6xB/YR2PHgev5/Z8czclFcDzPChNh3MJoTq5WmnZcnDJ67E3GbzDhCxA63rMP6iiLmGlie9FDbD4brQT06HyD6jl++oHKT57LKHs2/WS8oZ9Q7PrtE11umQXz2YAqJs3TwPzSwuZbchFQ/BHilFksTwhqV6qXBbcnicxYgsEWQ2qA=
+  app: 'https://wicked-mansion-25410.herokuapp.com/'
+  on:
+    repo: d-hongbro/node-shopping-list-integration-tests
