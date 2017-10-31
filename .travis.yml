@@ -1,5 +1,7 @@
 language: node_js
 node_js: node
+before_deploy:
+- gem install mime-types -v 2.6.2
 deploy:
   provider: heroku
   api_key:
