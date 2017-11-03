@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: LBMtzWvM62TE2ZqiQWLJmxN5SJV9CqbYXfrOEfY9I+BtKeR27bDnTxMnqi6pYK77xb+inNcJ4oFRpL7VYYBCHsqrwqV21BUtNaOgKCjk5J6HD78W3I0hseWIcxdma1vb4pp+3CLrYlNwlrjEUewrEKmZs7XaGTfQYGfMtASoiEKf0m2sxWmhHmbyxU4ALHD4+LJVx2K8e7VWDIz7svBAw3iXE5Q+mC+DgoCbw0JbGzsV+sMoOlbaLCaT/QIvT1FauftvLxDkxUoY6aWNTCwE4vYyL0Muf9PR6ejU8iHu1CJNhEchUNuLJR2RwpfpVDrYnCx5XTjs0JGWybO6IcG6pQH1/AtFexTR4VQa2CQRebaSDo09Amn8KIv8o6VO533TZ6xA1f7Z0I+NbidJf0mpRSx0dwaLXXgsb/FdbdN8akjjxEjtxU/wyPTjZctb9SioDFLJVjpB3rYzQ6f6+h9lsLZihFkJcaAhyoqpvNt/5eJJSHVaZZoQB9XjeBJG9bExipgOq72gl/GhLaPixFbK2ya15vZmH7hsn+xLnSWCVefZkIxBUpI4jk2HDUAVWMrxDHIuB4YaFNkKrvqanRxnivlaKU+3ry+xd69IhmIGdd9MxWR6x8nRBxEzufp6WePd/cXCxeABfKLVRPYzhPEkcjhRIWqDVzSgxvxKHSkCnyE=
-  app: node-shopping-list-integration-tests
+  app: damp-peak-78290
   on:
     repo: d-hongbro/node-shopping-list-integration-tests
