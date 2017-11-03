@@ -5,7 +5,7 @@ before_deploy:
 deploy:
   provider: heroku
   api_key:
-    secure: HtwjkH0v7aDdEFXlmL+iXpKnJMLc3McqwU5MTyXVygYwgj1infMch7mJ3Oyvv+fuALJ2MHcs5ST0em1/2woPxk4yZBI89vvWD7sdoVJbC/y+aA3T3eOO5p4j8RjpmNlEkCVvgIi795gxMdVAXPEmFg2QTzNwhuBNtZhVGyca6eXFY3q+s/gePecL4wcLfLTPwEl6gcrmPO/E+dEG42Zjt6Masswz+jYLquQfwAID3yq/6qKntDlKc41Cu07+i7lKXUUVfGYH3zI+FlVbrPGEzGGvxxjwkOcC6Px2ltUeJ3vre/Spf5a5dn2+PYo8s1t831+wvJ2XpoK4JjL7OnyLbV/rvHuj2ZsfV3Ilq6iHOmahtQOnMalx72635RoM8y/s0wLEbIDy86D/u80M5youkPnnM7upCka0ZLk890HHZshTfFA6EfB/2lcgu+t9iwDq6SMeYDkmczfGysUgDt5I0PPedtGfXr0/b1xTLuZdwe8ZPhW4wBXegY6I/sgSeYk8h/S8cKYzg+I85lG/69Oqiz/qhL9DeNW4P7sh9iWc1m03T6dMSa3yvmXGz0nLwCr7pCuWLIuF1EK/kJlPu+sV/1e4GZtYmQvWLMwhpczcpYt9qyAbs2flztHzR7sUfy/hMCaxr8WGKTmPS1w5p57vmwq1FY4tNCWkr+gphZ7uMSU=
-  app: node-shopping-list-integration-tests
-  on:
-    repo: d-hongbro/node-shopping-list-integration-tests
+    secure: ml73QGixoxwn9I7PB9HDRDwuKH9mJSdIfYz0CwmWxV3kcoyZEi+AG/WXgDG8Zw7CQXjQ0IwtX8VBuQXtefFUc56h9womLlKGqN/NrW3kiDuywJjsUhnCdGmud0zRee+ZILqLkHZZSKE/bKwU8CBHfD29eEMM+mUcjRCn3OCK5qqCVjCF7EFu6P+JMspi8I/gacpe2FdDPy78o/t3TkIMjDL21MfgF04IIcQDUWmk/FnLrIqejVU43qyv7aT6MFZEJf9zfX7CgODrF+hiD5Sni5MG2COZTSr+EO6mvXJsvrWe3z4lU1gIXbf88KRsni/+qc3X1//Wtz9CLeDyIx/b8L+ShaiRh4emw7uEemd/TC9Se+wy6kO5tJRxMdbNMakleIhDOI7cQoaBNHJPG8+eFfIg14RSL5s53jo3uHzuJcPOEi6+3IUxNI/fsvfErA2h9By4GeIH8UDe54mZtBZfLLzD0iwUyEwW13lIuYhU/uNSnkPjeYeQ+uczQzl4vrwLEkBJJhtFgAf00gIeZxo62YxcQSIV/8jBzLgUJ4KNk/NoBhbEmfD1tfnitY7xaJAOKVUzuMtFQT3ly5gqcjMf4PW+jYCMUu/Y3jH5GN+b8SVRkKlQf9+95ol0HY7IRV0Pl53TdNOp4Hl1MWavsXOMZQ43k4ChW+335Nh1ByU8EgA=
+  app: https://damp-peak-78290.herokuapp.com/
+  # on:
+  #   repo: d-hongbro/node-shopping-list-integration-tests
